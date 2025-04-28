@@ -1,19 +1,11 @@
 export class Source {
   id: string;
-  lastModified: string;
-  publicationDate: string;
-  dateCreated: string;
-  biography: string;
-  title: string;
-  provider: string;
+  name: string;
+  url: string;
 
   constructor() {
-    this.id='';
-    this.lastModified='';
-    this.publicationDate='';
-    this.dateCreated='';
-    this.biography='';
-    this.title='';
-    this.provider='';
+    this.id= '';
+    this.name = '';
+    this.url = '';
   }
 }
